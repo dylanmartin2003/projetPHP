@@ -1,0 +1,9 @@
+<form action="submit_contact.php" method="post" enctype="multipart/form-data">
+ <p>Votre mail : <input type="email" name="mail" required/></p>
+ <p>Votre nom : <input type="text" name="nom" required/></p>
+ <div class="mb-3">
+        <label for="screenshot" class="form-label">Votre capture d'écran</label>
+        <input type="file" class="form-control" id="screenshot" name="screenshot" />
+    </div>
+ <p><input type="submit" value="OK"></p>
+</form>
